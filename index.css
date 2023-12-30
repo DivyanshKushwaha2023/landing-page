@@ -1,9 +1,9 @@
 
 #header {
+    background-color: #1F2937;
     font-size: 26px;
     display: flex;  
-    align-items: flex-start;
-    border: 1px solid black;
+    align-items: center;
 }
 
 #nav {
@@ -12,55 +12,80 @@
     flex-grow: 1;
     justify-content: flex-end;
     gap: 30px;
-    border: 1px solid black;
+    margin:10px 120px 10px 120px;
+    
 }
 
 .navlink {
     text-decoration: none;
-    border: 1px solid black;
-
+    color: #e5e7eb;
 }
 
 
 #logo {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+    width: 30px;
+    margin:10px 0 10px 120px;
 } 
 
 #name{
+    color: #F9FAF8;
     margin-top: auto;
-    font-size: 44px;
-    border: 1px solid black;
+    font-size: 30px;
+    margin: auto 5px auto 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bolder {
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #img {
-    max-width: 45%;
-    border: 1px solid black;
+    max-width: 400px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 8%;
 }
 
-.signup {
+#signup {
     display: flex;
-    border: 1px solid black;
     justify-content: space-evenly;
+    background-color: #1F2937;
 }
 
 #button {
-    max-width: 100px;
-    max-height: 50px;
-    border: 1px solid black;
+    color: #F9FAF8;
+    background-color:  #3882f6;
+    width: 90px;
+    height: 30px;
+    margin: 10px 0 0 0;
+    border-radius: 15%;
+    border-style: none;
 }
 
 #para {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    color: #F9FAF8;
+    justify-content: center;
 }
+
+#bigtext {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#smalltext {
+    font-size: 18px;
+    color: #e5e7eb;
+} 
+
+
 
 #home > h2 {
     font-size: 36px;
     max-width: fit-content;
-    margin: auto;
+    margin: 20px auto 20px auto;
 }
 #info {
     display: flex;
@@ -99,13 +124,28 @@
     border: 1px solid black;
     font-style: italic;
     font-size: 36px;
-    margin: 50px 50px 0 50px;
+    margin: 50px 100px 0 100px;
 }
 
 #sign {
-    margin: 0 61px 32px 0;
+    margin: 0 100px 32px 0;
     border: 1px solid black;
     font-weight: bold;
     font-size: 18px;
     align-self: flex-end;
+}
+
+#cta {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px auto;
+}
+#btn {
+    border: 1px solid black;
+}
+#lines{
+    border: 1px solid black;
 }
